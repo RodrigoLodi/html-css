@@ -509,4 +509,4 @@ a.externo::after {
 "\00f00" = apos a \ colocar o codigo do emoji para adicioná-lo.
 
 --------------------------------------------
-
+após alterar o codigo que esta vinculado ao github, ir no github desktop e dar um commit na atualizacao e depois um push para subir ao repositorio remoto.
