@@ -511,12 +511,3 @@ a.externo::after {
 --------------------------------------------
 após alterar o codigo que esta vinculado ao github, ir no github desktop e dar um commit na atualizacao e depois um push para subir ao repositorio remoto.
 
-
-
-
-
-
-teste 123
-5
-5
-5
