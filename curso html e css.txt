@@ -513,3 +513,6 @@ após alterar o codigo que esta vinculado ao github, ir no github desktop e dar 
 
 --------------------------------------------
 display: inline-block; (deixa as div's um ao lado da outra.)
+
+adicionar imagem de fundo:
+background-image: url(caminho) 
