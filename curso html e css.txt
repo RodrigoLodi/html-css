@@ -517,6 +517,6 @@ display: inline-block; (deixa as div's um ao lado da outra.)
 adicionar imagem de fundo:
 background-image: url(caminho) 
 
-background-size: tamanho tamanho; (modifica o tamanho da imagem.
+background-size: cover (ocupa todo tamanho da tela cortando a imagem) countain (mostra 100% da imagem porem cria barras). (modifica o tamanho da imagem.)
 
 background-repeat: valores; (define se repite a imagem ou não, dependendo do valor colocado.)
