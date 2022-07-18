@@ -520,3 +520,29 @@ background-image: url(caminho)
 background-size: cover (ocupa todo tamanho da tela cortando a imagem) countain (mostra 100% da imagem porem cria barras). (modifica o tamanho da imagem.)
 
 background-repeat: valores; (define se repite a imagem ou não, dependendo do valor colocado.)
+
+background-position: center center...
+
+background-attachment: fixed (a tela rola porem a imagem nao) scroll (a imagem rola junto com a tela).
+
+shorthand - background:
+color > image > position > repeat > attachment
+---------------------------------------------------
+ #container {
+            position: relative;
+            height: 95vh;
+            padding: 10px;
+            background-color: purple;
+            
+        }
+        #conteudo {
+            height: 200px;
+            width: 400px;
+            background-color: yellow;
+
+            position: absolute;
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
+        }
