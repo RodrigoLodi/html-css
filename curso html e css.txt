@@ -546,3 +546,9 @@ color > image > position > repeat > attachment
 
             transform: translate(-50%, -50%);
         }
+
+
+        ------------------------------------------
+        font-variant: small-caps; (deixar letras maiusculas e as primeiras um pouco maiores)
+
+        font-transform: uppercase; (transformar as letras em maiusculas)
