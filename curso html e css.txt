@@ -552,3 +552,5 @@ color > image > position > repeat > attachment
         font-variant: small-caps; (deixar letras maiusculas e as primeiras um pouco maiores)
 
         font-transform: uppercase; (transformar as letras em maiusculas)
+        
+        display: inline-block; (caixa que se adapta ao tamanho do conteudo)
