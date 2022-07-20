@@ -554,3 +554,23 @@ color > image > position > repeat > attachment
         font-transform: uppercase; (transformar as letras em maiusculas)
         
         display: inline-block; (caixa que se adapta ao tamanho do conteudo)
+----------------------------------------------------------------------
+
+hierarquia de tabela simples:
+        
+        table = tabela
+            table row = linha de tabela
+                table header = cabeçalho de tabela;
+                table data = dado de tabela;
+
+
+        <table> (Tabela)
+            <tr> (Table Row)
+                <td>A1</td> (Table data)
+                <td>B1</td>
+                <td>C1</td>
+            </tr>
+        </table> 
+        
+        border-collapse: collapse; (juntar os dados da tabela)
+        
