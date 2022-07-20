@@ -573,4 +573,4 @@ hierarquia de tabela simples:
         </table> 
         
         border-collapse: collapse; (juntar os dados da tabela)
-        
+        vertical-align: top, bottom...; (alinhar verticalmente a tabela)
