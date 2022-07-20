@@ -574,3 +574,14 @@ hierarquia de tabela simples:
         
         border-collapse: collapse; (juntar os dados da tabela)
         vertical-align: top, bottom...; (alinhar verticalmente a tabela)
+------------------------------------------------------------------------
+        Anatomia para tabelas grandes:
+
+        TABLE
+            CAPTION (legenda da tabela)
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
