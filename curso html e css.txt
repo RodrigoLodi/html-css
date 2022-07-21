@@ -602,4 +602,10 @@ hierarquia de tabela simples:
             position: sticky;
             top: 0;
         }
-        -------------------------------------------------------------
+        ------------------------------------------------------------
+        expansao de coluna:
+
+        <td colspan="2">B</td>
+
+        expansao de linha: 
+        <td rowspan="2">B</td>
