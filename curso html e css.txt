@@ -585,3 +585,21 @@ hierarquia de tabela simples:
                 TR, TD, TH
             TFOOT
                 TR, TD, TH
+
+
+
+        tbody > tr:nth-child(2n)  (comando para pintar a linha intercalado);
+        
+        tr:nth-child(odd) odd = celulas impares; even = par;
+
+        -------------------------------------------------------------
+        cabeçalho fixo: 
+        
+        table {
+            position: relative;
+        }
+         thead > tr > th {
+            position: sticky;
+            top: 0;
+        }
+        -------------------------------------------------------------
