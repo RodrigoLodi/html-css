@@ -609,3 +609,12 @@ hierarquia de tabela simples:
 
         expansao de linha: 
         <td rowspan="2">B</td>
+        ------------------------------------------------------------
+        Personalizar coluna inteira:
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        -------------------------------------------------------------
