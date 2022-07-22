@@ -618,3 +618,11 @@ hierarquia de tabela simples:
             <col class="cprof">
         </colgroup>
         -------------------------------------------------------------
+        Tabela Responsiva
+
+        envelopar tabela com div e colocar seguinte comando:
+
+        div {
+            overflow-x: auto;
+        }
+        -------------------------------------------------------------
