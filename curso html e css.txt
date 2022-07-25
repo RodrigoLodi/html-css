@@ -630,3 +630,8 @@ hierarquia de tabela simples:
         iframe: aparece o site selecionado dentro de uma janela.
 
         por padrão o tamanho é de 300x150
+
+        ----------------------------------------------------
+        para um link abrir dentro de um iframe, tem que colocar um name no iframe e no link, colocar um target="name"
+
+        ----------------------------------------------------
