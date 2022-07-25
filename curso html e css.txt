@@ -626,3 +626,7 @@ hierarquia de tabela simples:
             overflow-x: auto;
         }
         -------------------------------------------------------------
+
+        iframe: aparece o site selecionado dentro de uma janela.
+
+        por padrão o tamanho é de 300x150
