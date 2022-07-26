@@ -635,3 +635,4 @@ hierarquia de tabela simples:
         para um link abrir dentro de um iframe, tem que colocar um name no iframe e no link, colocar um target="name"
 
         ----------------------------------------------------
+        <iframe srcdoc"colocar um codigo html para aparecer dentro do iframe"> </iframe>
