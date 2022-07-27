@@ -635,3 +635,18 @@ hierarquia de tabela simples:
         para um link abrir dentro de um iframe, tem que colocar um name no iframe e no link, colocar um target="name"
 
         ----------------------------------------------------
+        <iframe srcdoc"colocar um codigo html para aparecer dentro do iframe"> </iframe>
+
+
+
+        ----------------------------------------------------
+        <iframe sandbox="sandbox"> 
+        nao deixa preencher formularios (segurança maxima)
+
+        sandbox= allow-same-origin (permitir do mesmo url)
+        allow-forms (permitir formulario)
+        allow-script (permite script)
+
+        ----------------------------------------------------
+        <iframe referrerpolicy="no-referrer"> conteudo do iframe nao vai capturar nada do site.
+        ----------------------------------------------------
