@@ -659,3 +659,8 @@ hierarquia de tabela simples:
 
         box de fora precisa conter:
         position: relative;
+        -----------------------------------------------------
+        box-sizing: border-box; (faz com que a borda do objeto faça parte do tamanho dele.)
+
+        -----------------------------------------------------
+        
