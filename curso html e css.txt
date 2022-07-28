@@ -650,3 +650,12 @@ hierarquia de tabela simples:
         ----------------------------------------------------
         <iframe referrerpolicy="no-referrer"> conteudo do iframe nao vai capturar nada do site.
         ----------------------------------------------------
+
+        box que quer centralizar precisa conter:
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        box de fora precisa conter:
+        position: relative;
