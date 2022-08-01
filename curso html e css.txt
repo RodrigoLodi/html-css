@@ -663,4 +663,12 @@ hierarquia de tabela simples:
         box-sizing: border-box; (faz com que a borda do objeto faça parte do tamanho dele.)
 
         -----------------------------------------------------
+        formulario: 
         
+        <form action="cadastro.php" autocomplete="off">
+        <p><label for="inome">Nome:</label> 
+            <input type="text" name="nome" id="inome"></p>
+        <p><label for="isobrenome">Sobrenome:</label> 
+            <input type="text" name="sobrenome" id="isobrenome"></p>
+        <p><input type="submit" value="Enviar"></p>
+        </form>
