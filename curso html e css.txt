@@ -665,10 +665,28 @@ hierarquia de tabela simples:
         -----------------------------------------------------
         formulario: 
         
-        <form action="cadastro.php" autocomplete="off">
+        <form action="cadastro.php" autocomplete="off" method="get/post">
         <p><label for="inome">Nome:</label> 
             <input type="text" name="nome" id="inome"></p>
         <p><label for="isobrenome">Sobrenome:</label> 
             <input type="text" name="sobrenome" id="isobrenome"></p>
         <p><input type="submit" value="Enviar"></p>
         </form>
+
+        method get = aparece na url
+        post= nao aparece na url
+
+
+        <input type="submit" value="Enviar"> (Botao para enviar)
+        <input type="reset" value=""> (Botao para limpar)
+        <input type="password" value=""> (Campo ser tipo senha)
+        <input required> (Required é quando o campo é obrigatorio)
+        <input minlenght maxlenght> (Minimo e maximo de caracteres)
+        <input size> (maximo de caracteres que vai aparecer na caixa)
+        <input placeholder> (escreve algo na caixa como uma dica.)
+
+        *Para marcar cada input a o que se refere. Senha, endereço, email...
+        <form autocomplete="on">
+            <input autocomplete="">
+        </form>
+        *
