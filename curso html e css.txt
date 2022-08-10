@@ -750,3 +750,38 @@ hierarquia de tabela simples:
     **file (enviar fotos) SEMPRE USAR O METODO POST QUANDO UTILIZAR ESSA OPÇÃO
     <label for="ifoto">Foto de Perfil: </label>
     <input type="file" name="foto" id="ifoto">
+
+
+    **Lista com algumas opções pre-definidas que pode ser preenchido com outra opção manual;
+    <label for="iprof">Profissão</label>
+    <input type="text" name="prof" id="iprof" list="lstprof">
+    <datalist id="lstprof"> 
+                <option value="">Administrador</option>
+                <option value="">Contador</option>
+                <option value="">Desenvolvedor</option>
+                <option value="">Professor</option>
+    </datalist>
+
+    **Lista com opções fixas.
+    <label for="iest">Estado</label>
+            <select name="estado" id="iest">
+                <option value="" selected>---Escolha---</option>
+                <optgroup label="Região Sudeste">
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                </optgroup>
+
+                <optgroup label="Região Nordeste">
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="MA">Maranhão</option>
+                </optgroup>
+            </select>
+
+
+            **Area de texto
+            <p>
+            <label for="imsg">Mensagem</label> <br>
+            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+            </p>
