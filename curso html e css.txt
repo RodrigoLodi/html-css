@@ -710,3 +710,43 @@ hierarquia de tabela simples:
                 <input type="tel" name="tel" id="itel" autocomplete="tel" required pattern="^\(\d{2}\)\d{4,5}-\d{4}$" placeholder="(xx)xxxx-xxxx">
             </p>
         </fieldset>
+
+
+
+
+        <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sex" id="isexm"> <label for="isexm">Masculino</label> <br>
+            <input type="radio" name="sex" id="isexf"> <label for="isexf">Feminino</label>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            <input type="checkbox" name="esfut" id="iesfut"> <label for="iesfut">Futebol</label> <br>
+            <input type="checkbox" name="esbas" id="iesbas"> <label for="iesbas">Basquete</label> <br>
+            <input type="checkbox" name="esnat" id="iesnat"> <label for="iesnat">Natação</label> <br>
+            <input type="checkbox" name="esten" id="iesten"> <label for="iesten">Tenis</label>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+
+
+    BOTOES DE RATIO, TODAS AS OPÇÕES TEM QUE POSSUIR O MESMO NOME E OS IDS DIFERENTES.
+
+
+    **cor**
+    <label for="icor">Cor</label>
+    <input type="color" name="cor" id="icor" value="#00ff00">
+    **value é para definir qual a cor que vai inciar como padrão**
+
+    **range (avaliação)
+    <label for="inivel">Nivel de Satisfação: </label>
+    <input type="range" name="nivel" id="inivel" min="1" max="5" value="2">
+
+    **file (enviar fotos) SEMPRE USAR O METODO POST QUANDO UTILIZAR ESSA OPÇÃO
+    <label for="ifoto">Foto de Perfil: </label>
+    <input type="file" name="foto" id="ifoto">
