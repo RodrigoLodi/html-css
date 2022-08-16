@@ -821,3 +821,13 @@ hierarquia de tabela simples:
             <input type="reset" value="Limpar">
         </p>
     </form>
+
+
+-----------------------------------------------------------------------
+    media types:
+    <link rel="stylesheet" href="estilos/style.css" media="all/screen/print">
+
+    media feature:
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/retrato.css" media="screen and (orientation: portrait)">
+    <link rel="stylesheet" href="estilos/paisagem.css" media="screen and (orientation: landscape)">
