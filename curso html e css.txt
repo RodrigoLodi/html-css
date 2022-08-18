@@ -651,9 +651,192 @@ hierarquia de tabela simples:
         <iframe referrerpolicy="no-referrer"> conteudo do iframe nao vai capturar nada do site.
         ----------------------------------------------------
 
+<<<<<<< HEAD
 centralizar uma imagem {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+=======
+        box que quer centralizar precisa conter:
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        box de fora precisa conter:
+        position: relative;
+        -----------------------------------------------------
+        box-sizing: border-box; (faz com que a borda do objeto faça parte do tamanho dele.)
+
+        -----------------------------------------------------
+        formulario: 
+        
+        <form action="cadastro.php" autocomplete="off" method="get/post">
+        <p><label for="inome">Nome:</label> 
+            <input type="text" name="nome" id="inome"></p>
+        <p><label for="isobrenome">Sobrenome:</label> 
+            <input type="text" name="sobrenome" id="isobrenome"></p>
+        <p><input type="submit" value="Enviar"></p>
+        </form>
+
+        method get = aparece na url
+        post= nao aparece na url
+
+
+        <input type="submit" value="Enviar"> (Botao para enviar)
+        <input type="reset" value=""> (Botao para limpar)
+        <input type="password" value=""> (Campo ser tipo senha)
+        <input required> (Required é quando o campo é obrigatorio)
+        <input minlenght maxlenght> (Minimo e maximo de caracteres)
+        <input size> (maximo de caracteres que vai aparecer na caixa)
+        <input placeholder> (escreve algo na caixa como uma dica.)
+
+        *Para marcar cada input a o que se refere. Senha, endereço, email...
+        <form autocomplete="on">
+            <input autocomplete="">
+        </form>
+        *
+
+
+
+
+        <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <p>
+                <label for="inome">Nome</label>
+                <input type="text" name="nome" id="inome" required minlength="5" maxlength="20">
+            </p>
+            <p>
+                <label for="iemail">E-mail</label>
+                <input type="email" name="email" id="iemail" required>
+            </p>
+            <p>
+                <label for="itel">Telefone</label>
+                <input type="tel" name="tel" id="itel" autocomplete="tel" required pattern="^\(\d{2}\)\d{4,5}-\d{4}$" placeholder="(xx)xxxx-xxxx">
+            </p>
+        </fieldset>
+
+
+
+
+        <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sex" id="isexm"> <label for="isexm">Masculino</label> <br>
+            <input type="radio" name="sex" id="isexf"> <label for="isexf">Feminino</label>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            <input type="checkbox" name="esfut" id="iesfut"> <label for="iesfut">Futebol</label> <br>
+            <input type="checkbox" name="esbas" id="iesbas"> <label for="iesbas">Basquete</label> <br>
+            <input type="checkbox" name="esnat" id="iesnat"> <label for="iesnat">Natação</label> <br>
+            <input type="checkbox" name="esten" id="iesten"> <label for="iesten">Tenis</label>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+
+
+    BOTOES DE RATIO, TODAS AS OPÇÕES TEM QUE POSSUIR O MESMO NOME E OS IDS DIFERENTES.
+
+
+    **cor**
+    <label for="icor">Cor</label>
+    <input type="color" name="cor" id="icor" value="#00ff00">
+    **value é para definir qual a cor que vai inciar como padrão**
+
+    **range (avaliação)
+    <label for="inivel">Nivel de Satisfação: </label>
+    <input type="range" name="nivel" id="inivel" min="1" max="5" value="2">
+
+    **file (enviar fotos) SEMPRE USAR O METODO POST QUANDO UTILIZAR ESSA OPÇÃO
+    <label for="ifoto">Foto de Perfil: </label>
+    <input type="file" name="foto" id="ifoto">
+
+
+    **Lista com algumas opções pre-definidas que pode ser preenchido com outra opção manual;
+    <label for="iprof">Profissão</label>
+    <input type="text" name="prof" id="iprof" list="lstprof">
+    <datalist id="lstprof"> 
+                <option value="">Administrador</option>
+                <option value="">Contador</option>
+                <option value="">Desenvolvedor</option>
+                <option value="">Professor</option>
+    </datalist>
+
+    **Lista com opções fixas.
+    <label for="iest">Estado</label>
+            <select name="estado" id="iest">
+                <option value="" selected>---Escolha---</option>
+                <optgroup label="Região Sudeste">
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                </optgroup>
+
+                <optgroup label="Região Nordeste">
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="MA">Maranhão</option>
+                </optgroup>
+            </select>
+
+
+            **Area de texto
+            <p>
+            <label for="imsg">Mensagem</label> <br>
+            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+            </p>
+
+
+            **SOMA DE 2 CAMPOS COM javascript
+    <p>
+        <label for="in1">Número 1:</label>
+        <input type="number" name="n1" id="in1" max="50" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+    </p>
+    <p>
+        <label for="in2">Número 2:</label>
+        <input type="number" name="n2" id="in2" max="50" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+    </p>
+    <p>
+        <label for="isoma">Soma:</label>
+        <output name="soma" id="isoma">0</output>
+    </p>
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
+
+
+    **Barra de valores atualizando.
+    
+    <form action="cadastro.php" method="get">
+        <p>
+            <label for="inum">Número: </label>
+            <input type="range" name="num" id="inum" min="0"
+             max="10" value="5" oninput="ival.innerHTML = Number(inum.value)">
+             <output id="ival">5</output>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+
+
+-----------------------------------------------------------------------
+    media types:
+    <link rel="stylesheet" href="estilos/style.css" media="all/screen/print">
+
+    media feature:
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/retrato.css" media="screen and (orientation: portrait)">
+    <link rel="stylesheet" href="estilos/paisagem.css" media="screen and (orientation: landscape)">
+>>>>>>> ccd19746d70c6671df992720e3f8b25a6af84943
