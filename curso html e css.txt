@@ -840,3 +840,7 @@ centralizar uma imagem {
     <link rel="stylesheet" href="estilos/retrato.css" media="screen and (orientation: portrait)">
     <link rel="stylesheet" href="estilos/paisagem.css" media="screen and (orientation: landscape)">
 >>>>>>> ccd19746d70c6671df992720e3f8b25a6af84943
+
+
+
+box-sizing: border-box; (INCLUI A BORDA NO CALCULO DO TAMANHO)
