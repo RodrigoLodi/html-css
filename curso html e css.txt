@@ -862,3 +862,28 @@ Tipical device breakpoints
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {...}
+
+
+
+Comando javascript menu hamburguinho:
+
+<script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            }
+            else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+
+
+
+
+
+    mudar o cursor: 
+
+    cursor: pointer;
+
+    

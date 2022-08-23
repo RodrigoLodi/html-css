@@ -18,8 +18,37 @@ header > h1 {
     text-align: center;
 }
 
-menu {
+div {
+    width: 100vw;
+    background-color: rgb(48, 48, 48);
+    text-align: center;
     display: block;
+    transition: all 1s;
+}
+
+div:hover {
+    background-color: white;
+}
+
+i#burguer {
+    background-color: rgb(48, 48, 48);
+    color: white;
+    width: 24px;
+    margin: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+i#burguer:hover {
+    background-color: white;
+    color: black;
+    transform: rotateZ(360deg);
+    -webkit-transform: rotateZ(360deg);
+}
+
+menu {
+    display: none;
 }
 
 menu > ul {
